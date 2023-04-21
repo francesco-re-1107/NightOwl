@@ -3,7 +3,7 @@ A deep learning model for sleep-walking detection made in pytorch.
 
 <br />
 <div align="center">
-  <img src="assets/logo.png" alt="Logo" width="220" height="220">
+  <img src="assets/logo.png" alt="Logo" width="300" height="300">
 </div>
 
 
@@ -14,7 +14,7 @@ The idea is to detect sleep-walking episodes using camera placed in the bedroom.
 The camera is continuosly watched by an external motion detector (e.g. Blue Iris). When a movement is detected, a trigger is sent to the [NightOwl manager](https://github.com/francesco-re-1107/NightOwl-manager). The manager then starts pulling frames from the camera and analyzes them using a deep learning model. The model compute a score for each frame, and if the moving average of the score is above a threshold, the system is triggered.
 <br />
 <div align="center">
-  <img src="assets/schema.png" alt="Schema" width="600">
+  <img src="assets/schema.png" alt="Schema" width="750">
 </div>
 
 ## Model
