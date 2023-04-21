@@ -30,7 +30,7 @@ LogSoftmax(dim=1)
 
 ## Dataset
 The dataset was created and labelled by me, so for privacy reasons it is not in this repository. It is composed of 3 classes:
-- `sleeping`: the person is sleeping
+- `asleep`: the person is sleeping
 - `awake`: the person is awake but in his bed
 - `danger`: the person is out of bed
 
