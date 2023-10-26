@@ -160,3 +160,12 @@ cython_debug/
 #.idea/
 
 .DS_Store
+
+captures
+
+dataset_v*
+
+Events
+
+history.png
+
